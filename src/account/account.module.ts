@@ -14,14 +14,14 @@ import { TransactionsModule } from '../transactions/transactions.module';
     TypeOrmModule.forFeature([AccountRepository]),
     UserModule, 
     TransactionsModule,
-   /* CacheModule.register({
+    CacheModule.register({
       provide: APP_INTERCEPTOR,
       useClass: CacheInterceptor,
       store:redisStore,
       host:'localhost',
       port:6379,
       ttl: 3600,
-    }), */
+    }), 
 
   ],
   providers: [AccountService],
