@@ -34,6 +34,11 @@ $ npm install
 
 ## Running the app
 
+-First you need install in your local machine Postgres and Redis run in port 5432 and 6379.
+-Create in postgres a new Database, it's name must be "cashmachine"
+-The username and password for the connection with postgres must be "postgres" in the username and password, If you want, you can change the config like you want it, in the document typeorm.config.ts
+-And that's it.
+
 ```bash
 # development
 $ npm run start
