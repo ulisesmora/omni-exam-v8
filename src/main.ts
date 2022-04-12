@@ -8,5 +8,5 @@ async function bootstrap() {
   await app.listen(3000);
 }
 
-// AppClusterService.call(bootstrap);
+// AppClusterService.clusterize(bootstrap);  //if you want use multithreads without pm2 you must discoment this line and comment 12 line
 bootstrap();
